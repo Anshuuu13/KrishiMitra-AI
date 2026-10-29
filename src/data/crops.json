@@ -1,0 +1,61 @@
+{
+  "simulated": true,
+  "dataSource": "Sample Hackathon Agricultural Dataset (Mock)",
+  "lastUpdated": "2026-10-29",
+  "crops": [
+    {
+      "id": "wheat",
+      "name": "Wheat",
+      "hindiName": "गेहूं",
+      "category": "Cereal",
+      "defaultUnit": "quintal",
+      "msp": 2275,
+      "description": "Major rabi cereal crop widely grown in MP, Punjab, Haryana, and UP."
+    },
+    {
+      "id": "rice",
+      "name": "Paddy / Rice",
+      "hindiName": "धान",
+      "category": "Cereal",
+      "defaultUnit": "quintal",
+      "msp": 2183,
+      "description": "Primary kharif staple crop cultivated across central and eastern belts."
+    },
+    {
+      "id": "soybean",
+      "name": "Soybean",
+      "hindiName": "सोयाबीन",
+      "category": "Oilseed",
+      "defaultUnit": "quintal",
+      "msp": 4600,
+      "description": "Key cash oilseed heavily traded in Madhya Pradesh and Maharashtra."
+    },
+    {
+      "id": "onion",
+      "name": "Onion",
+      "hindiName": "प्याज",
+      "category": "Vegetable",
+      "defaultUnit": "quintal",
+      "msp": null,
+      "description": "Perishable commercial vegetable prone to seasonal price volatility."
+    },
+    {
+      "id": "tomato",
+      "name": "Tomato",
+      "hindiName": "टमाटर",
+      "category": "Vegetable",
+      "defaultUnit": "quintal",
+      "msp": null,
+      "description": "High-demand perishable crop requiring rapid logistics."
+    },
+    {
+      "id": "cotton",
+      "name": "Cotton",
+      "hindiName": "कपास",
+      "category": "Cash Crop",
+      "defaultUnit": "quintal",
+      "msp": 7020,
+      "description": "Commercial fiber crop traded across Gujarat, Maharashtra, and Telangana."
+    }
+  ]
+}
