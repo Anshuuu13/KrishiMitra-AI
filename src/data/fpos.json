@@ -1,0 +1,118 @@
+{
+  "simulated": true,
+  "dataSource": "Sample Farmer Producer Organizations (FPO) Directory (Demo Mock)",
+  "lastUpdated": "2026-10-29",
+  "disclaimer": "Simulated sample FPOs for hackathon demonstration. Not official government registrations.",
+  "fpos": [
+    {
+      "id": "fpo-1",
+      "name": "Malwa Kisan Samriddhi FPO",
+      "registrationNo": "FPO/MP/IND/2021/0412 (Demo)",
+      "block": "Sanwer",
+      "district": "Indore",
+      "state": "Madhya Pradesh",
+      "memberCount": 680,
+      "focusCrops": ["wheat", "soybean"],
+      "collectiveSellingBonus": "6% to 10% premium via direct institutional contracts",
+      "keyBenefits": [
+        "Direct bulk supply agreements with ITC and local flour mills",
+        "Subsidized certified seeds and organic bio-fertilizer supply",
+        "Shared scientific storage godown (save on distress sales)",
+        "Zero middleman commission through collective bargaining"
+      ],
+      "contactPerson": "Govind Patidar (FPO CEO - Demo)",
+      "phone": "+91 98264-XXXXX",
+      "officeAddress": "Kisan Seva Kendra, Village Dharmkhedi, Sanwer, Indore (MP)",
+      "rating": 4.9,
+      "simulated": true
+    },
+    {
+      "id": "fpo-2",
+      "name": "Sahyadri Agro Farmer Producer Co. Ltd.",
+      "registrationNo": "FPO/MH/NSK/2019/1105 (Demo)",
+      "block": "Niphad",
+      "district": "Nashik",
+      "state": "Maharashtra",
+      "memberCount": 1450,
+      "focusCrops": ["onion", "tomato"],
+      "collectiveSellingBonus": "12% higher return via cold-chain & retail chains",
+      "keyBenefits": [
+        "Access to 500 MT solar-powered cold storage facility",
+        "Direct farm-to-supermarket delivery tie-ups across Mumbai & Pune",
+        "Grading, sorting, and export packaging infrastructure",
+        "Emergency credit support against warehouse receipts"
+      ],
+      "contactPerson": "Ashok Shinde (Managing Director - Demo)",
+      "phone": "+91 94225-XXXXX",
+      "officeAddress": "Agro Cold Chain Complex, Niphad, Nashik (MH)",
+      "rating": 4.8,
+      "simulated": true
+    },
+    {
+      "id": "fpo-3",
+      "name": "Narmada Valley Krishi Producer Co.",
+      "registrationNo": "FPO/MP/HSH/2020/0789 (Demo)",
+      "block": "Babai",
+      "district": "Hoshangabad / Narmadapuram",
+      "state": "Madhya Pradesh",
+      "memberCount": 520,
+      "focusCrops": ["wheat", "rice"],
+      "collectiveSellingBonus": "Guaranteed minimum MSP procurement on campus",
+      "keyBenefits": [
+        "Designated direct procurement center with zero mandi wait times",
+        "Custom Hiring Center for modern combine harvesters & laser levelers",
+        "Soil health card testing laboratory on-site",
+        "Collective crop insurance facilitation"
+      ],
+      "contactPerson": "Bhawani Singh Rajput (Chairman - Demo)",
+      "phone": "+91 98268-XXXXX",
+      "officeAddress": "Mandir Parisar, Babai Road, Hoshangabad (MP)",
+      "rating": 4.7,
+      "simulated": true
+    },
+    {
+      "id": "fpo-4",
+      "name": "Avadh Kisan Pragati Producer Co.",
+      "registrationNo": "FPO/UP/LKO/2022/0334 (Demo)",
+      "block": "Malihabad",
+      "district": "Lucknow",
+      "state": "Uttar Pradesh",
+      "memberCount": 610,
+      "focusCrops": ["rice", "wheat"],
+      "collectiveSellingBonus": "8% savings on input costs + guaranteed mill off-take",
+      "keyBenefits": [
+        "Bulk wholesale fertilizer and input procurement at distributor rates",
+        "Collective truck dispatch directly to Lucknow flour & rice mills",
+        "Free agronomy consultations and weather forecasting alerts",
+        "Micro-irrigation subsidy assistance"
+      ],
+      "contactPerson": "Rakesh Awasthi (CEO - Demo)",
+      "phone": "+91 94155-XXXXX",
+      "officeAddress": "Kisan Bhawan, Malihabad, Lucknow (UP)",
+      "rating": 4.6,
+      "simulated": true
+    },
+    {
+      "id": "fpo-5",
+      "name": "Tapi Valley Cotton & Oilseed FPO",
+      "registrationNo": "FPO/MH/JAL/2021/0951 (Demo)",
+      "block": "Raver",
+      "district": "Jalgaon",
+      "state": "Maharashtra",
+      "memberCount": 490,
+      "focusCrops": ["cotton", "soybean"],
+      "collectiveSellingBonus": "₹200/quintal bonus on bulk cotton bale consolidation",
+      "keyBenefits": [
+        "Direct linkage to export textile and ginning mills",
+        "Electronic moisture and lint testing before sale",
+        "Shared seed drills and spraying drones",
+        "Quarterly farmer knowledge workshops"
+      ],
+      "contactPerson": "Tukaram Patil (Demo)",
+      "phone": "+91 94235-XXXXX",
+      "officeAddress": "Market Yard Complex, Raver, Jalgaon (MH)",
+      "rating": 4.8,
+      "simulated": true
+    }
+  ]
+}

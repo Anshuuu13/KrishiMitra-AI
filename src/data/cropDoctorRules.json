@@ -1,0 +1,191 @@
+{
+  "simulated": true,
+  "dataSource": "Sample Crop Health Guidance Rules (Demo Mock)",
+  "lastUpdated": "2026-10-29",
+  "disclaimer": "Simulated guidance. Not a verified diagnosis. Consult a local agriculture officer (Krishi Vigyan Kendra - KVK) for definitive testing.",
+  "crops": {
+    "wheat": {
+      "cropName": "Wheat (गेहूं)",
+      "symptoms": [
+        {
+          "id": "s-w-1",
+          "label": "Yellow stripe powder / pustules on leaves",
+          "hindiLabel": "पत्तियों पर पीली धारियां या पीला पाउडर",
+          "possibleIssue": "Suspected Yellow Rust (Stripe Rust) / पीला रतुआ",
+          "severity": "High",
+          "generalGuidance": "Yellow rust thrives in cool, humid conditions. Avoid excessive urea application. Ensure field drainage.",
+          "culturalSteps": [
+            "Monitor unaffected areas of the field immediately.",
+            "Avoid walking through infected patches into healthy areas when wet to prevent spore dispersal.",
+            "Consult your nearest KVK officer before applying any fungicide (such as Propiconazole 25% EC)."
+          ],
+          "scientificName": "Puccinia striiformis"
+        },
+        {
+          "id": "s-w-2",
+          "label": "Premature drying of shoots & root damage",
+          "hindiLabel": "पौधे का सूखना और जड़ों में दीमक/कीट का असर",
+          "possibleIssue": "Suspected Termite Damage or Root Rot / दीमक या जड़ सड़न",
+          "severity": "Medium",
+          "generalGuidance": "Common in light or dry soils with un-decomposed farmyard manure.",
+          "culturalSteps": [
+            "Ensure only well-decomposed organic manure is used.",
+            "Maintain adequate soil moisture during seedling stage.",
+            "Consider treating irrigation water with recommended neem formulations or biocontrol agents."
+          ]
+        },
+        {
+          "id": "s-w-3",
+          "label": "General yellowing of lower leaves without spots",
+          "hindiLabel": "निचली पत्तियों का सामान्य पीलापन (बिना धब्बों के)",
+          "possibleIssue": "Likely Nitrogen Deficiency / नाइट्रोजन की कमी",
+          "severity": "Low",
+          "generalGuidance": "Nitrogen is mobile in the plant, causing older bottom leaves to yellow first.",
+          "culturalSteps": [
+            "Apply split dose of nitrogenous fertilizer or foliar spray of 2% Urea in the evening.",
+            "Check soil moisture before fertilizer top-dressing."
+          ]
+        }
+      ]
+    },
+    "tomato": {
+      "cropName": "Tomato (टमाटर)",
+      "symptoms": [
+        {
+          "id": "s-t-1",
+          "label": "Concentric brown rings / target spots on lower leaves",
+          "hindiLabel": "निचली पत्तियों पर गोल भूरे छल्ले जैसे धब्बे",
+          "possibleIssue": "Suspected Early Blight (अगेती झुलसा)",
+          "severity": "Medium",
+          "generalGuidance": "Early blight is a fungal infection favored by alternating wet and dry periods.",
+          "culturalSteps": [
+            "Prune and discard infected lower leaves (do not compost them).",
+            "Avoid overhead sprinkler irrigation; use drip irrigation to keep foliage dry.",
+            "Mulch soil around plants to prevent soil-splash onto lower foliage."
+          ],
+          "scientificName": "Alternaria solani"
+        },
+        {
+          "id": "s-t-2",
+          "label": "Leaves curling upward, stunted growth, tiny white flies",
+          "hindiLabel": "पत्तियां ऊपर की ओर मुड़ना, बौनापन और सफेद मक्खी",
+          "possibleIssue": "Suspected Tomato Leaf Curl Virus (पर्ण कुंचन रोग)",
+          "severity": "High",
+          "generalGuidance": "Transmitted by whitefly (Bemisia tabaci). Infected plants cannot be cured; focus on preventing spread.",
+          "culturalSteps": [
+            "Install yellow sticky traps (15-20 traps per acre) to monitor and trap whiteflies.",
+            "Remove severely stunted plants to prevent further transmission.",
+            "Spray neem-based biopesticide (Azadirachtin 10,000 ppm @ 2ml/L) to manage vector population."
+          ]
+        },
+        {
+          "id": "s-t-3",
+          "label": "Dark water-soaked rot at fruit blossom end",
+          "hindiLabel": "फल के निचले हिस्से में काला धंसा हुआ सड़न",
+          "possibleIssue": "Blossom End Rot (Calcium & Moisture Imbalance)",
+          "severity": "Low",
+          "generalGuidance": "Not an infectious disease, but a physiological disorder caused by irregular watering and poor calcium uptake.",
+          "culturalSteps": [
+            "Maintain consistent, regular soil moisture; avoid extreme drying out between waterings.",
+            "Apply foliar spray of Calcium Nitrate (0.5%) during fruit setting."
+          ]
+        }
+      ]
+    },
+    "soybean": {
+      "cropName": "Soybean (सोयाबीन)",
+      "symptoms": [
+        {
+          "id": "s-s-1",
+          "label": "Bright yellow mosaic patches on leaves",
+          "hindiLabel": "पत्तियों पर चमकीले पीले और हरे रंग के चकत्ते",
+          "possibleIssue": "Suspected Yellow Mosaic Virus (YMV) / पीला मोज़ेक",
+          "severity": "High",
+          "generalGuidance": "Viral condition spread by whitefly vectors during warm, humid spells.",
+          "culturalSteps": [
+            "Rogue out and bury early infected plants.",
+            "Erect yellow sticky traps across the plot.",
+            "Consult KVK for vector control advisories."
+          ]
+        },
+        {
+          "id": "s-s-2",
+          "label": "Stem girdling / dark lesions near soil level",
+          "hindiLabel": "तने पर जमीन के पास भूरी धारियां या सड़न",
+          "possibleIssue": "Suspected Girdle Beetle or Stem Rot / तना छेदक या सड़न",
+          "severity": "Medium",
+          "generalGuidance": "Damages sap flow, causing upper foliage to wilt.",
+          "culturalSteps": [
+            "Ensure field is not waterlogged.",
+            "Deep summer plowing reduces pupal survival in subsequent seasons."
+          ]
+        }
+      ]
+    },
+    "onion": {
+      "cropName": "Onion (प्याज)",
+      "symptoms": [
+        {
+          "id": "s-o-1",
+          "label": "Purplish-brown sunken lesions on leaves",
+          "hindiLabel": "पत्तियों पर बैंगनी-भूरे रंग के लंबे धब्बे",
+          "possibleIssue": "Suspected Purple Blotch (बैंगनी धब्बा)",
+          "severity": "Medium",
+          "generalGuidance": "Fungal infection thriving in humid conditions over 25°C.",
+          "culturalSteps": [
+            "Avoid excessive overhead irrigation.",
+            "Maintain adequate spacing between onion seedlings to allow air circulation.",
+            "Consult KVK experts for standard advisory."
+          ]
+        },
+        {
+          "id": "s-o-2",
+          "label": "Silvery white streaks on leaves, tiny insects in folds",
+          "hindiLabel": "पत्तियों पर चांदी जैसी सफेद धारियां (थ्रिप्स कीट)",
+          "possibleIssue": "Thrips Infestation / थ्रिप्स कीट",
+          "severity": "Medium",
+          "generalGuidance": "Thrips scrape leaf surface and suck sap, leading to dry curled tips.",
+          "culturalSteps": [
+            "Install blue sticky traps which specifically attract thrips.",
+            "Spray neem oil (5 ml per liter of water) with a natural spreader."
+          ]
+        }
+      ]
+    },
+    "rice": {
+      "cropName": "Paddy / Rice (धान)",
+      "symptoms": [
+        {
+          "id": "s-r-1",
+          "label": "Spindle-shaped lesions with gray centers and brown borders",
+          "hindiLabel": "पत्तियों पर नाव या धुरी के आकार के भूरे धब्बे",
+          "possibleIssue": "Suspected Blast Disease (ब्लास्ट / झोंका रोग)",
+          "severity": "High",
+          "generalGuidance": "A major fungal disease favored by high humidity and excessive nitrogen.",
+          "culturalSteps": [
+            "Reduce nitrogen fertilizer doses; apply potash to strengthen plant walls.",
+            "Maintain proper water level in the field.",
+            "Seek verification from local agriculture department."
+          ]
+        }
+      ]
+    },
+    "cotton": {
+      "cropName": "Cotton (कपास)",
+      "symptoms": [
+        {
+          "id": "s-c-1",
+          "label": "Rosetted flowers, bore holes in bolls, pink larvae inside",
+          "hindiLabel": "गुलाब के फूल जैसे खिले हुए फूल और गूलर में गुलाबी सुंडी",
+          "possibleIssue": "Suspected Pink Bollworm (गुलाबी सुंडी)",
+          "severity": "High",
+          "generalGuidance": "Major commercial pest in cotton bolls impacting lint quality.",
+          "culturalSteps": [
+            "Install pheromone traps (5-8 per acre) for early monitoring.",
+            "Promptly collect and destroy dropped shed flowers and bolls."
+          ]
+        }
+      ]
+    }
+  }
+}
